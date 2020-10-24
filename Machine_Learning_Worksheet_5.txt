@@ -1,0 +1,78 @@
+Question Number, Correct Option, Answer
+
+1> a,  hierarchical clustering is computationally less expensive
+
+2> a, max_depth 
+
+3> a, SMOTE
+
+4> d, 2 and 3
+
+5> d, 1-3-2
+
+6> b,  Support Vector Machines
+
+7> c,  CART can only create binary trees (a maximum of two children for a node), and CHAID can create multiway
+trees (more than two children for a node)
+
+Multimpal answer
+
+8> a, b
+
+9> b,d
+
+10> a,c
+
+Subject Answer 
+
+11>Answer:- The situation where the one-hot encoding must be avoided more than two 
+            categorical categories is available.In this situation label encoding
+            technique can be used in such a case.
+
+12>Answer:- When data imbalance problem in classification, Resample techniques can be
+            used to balance the dataset. In resample techniques we have two approaches
+            to make a balance dataset one are under-sampling and over-sampling.
+
+            i>Under-sampling : Under-sampling balances the dataset by reducing the size
+                               of abundant class.This method is used when quantity of 
+                               data is sufficient.
+
+            ii>Over-sampling : Over-sampling is used when quantity of data is insuficient.
+                               It tries to balance dataset by increasing the size of rare
+                               samples.
+
+13>Answer:- SMOTE : Firstlly it find the n-nearest neighbors in the minority class for each
+                    of the samples in the class. Then it draws a line between the neighbors
+                    an generates random points on the lines.
+
+            ADASYN : It is update version of SMOTE. What it does is same as SMOTE just with
+                     a minor inprovement. After creating those sample it adds a random small
+                     values to the points thus making it more realistic.
+
+14>Answer:- GridSeachCV is a library function that is a member of sklearn's model_selection 
+            package. It help loop through predefined hyperparameters and fit the etimator or
+            model on our training set. So, in the end, we can select the best parameters 
+            from the listed hyperparameters.
+            Is not preferable to use in case of large dataset, because when we use GridSeachCV
+            for large dataset performance is to slow. So, it can be a reason to not preferable
+            to use in case of large dataset.
+
+15>Answer:- List of some evaluation metric used to evaluate a regression model are:
+            i>Mean squared error(MSE) ii>Root-Mean-Squared-Error(RMSE) iii>Mean-Absolute-Error
+
+           i> Mean-Squared-Error(MSE) : MSE is one of the most preferred metrics for regression
+                                        task. It is simply the average of the squared difference
+                                        between the target value and the predicted by the regression 
+                                        model. It is preferred more than other metrics because it is
+                                        differentiable and hence can be optimized better.
+
+          ii> Root-Mean-Squared-Error : RMSE is the most widely used metric for regression tasks and
+                                        is the square root of the averaged squared difference between
+                                        the target value and the value predicted by the model. This 
+                                        implies that RMSE is useful when large errors are undesired.
+       
+         iii> Mean-Absolute-Error : MAE is the absolute difference between the target value and the
+                                    value predicted by the model.The MAE is more robust to outliers
+                                    and does not penalize the errors as extremely as mse. MAE is a 
+                                    linear score which means all the individual differences are 
+                                    weighted equally. 
